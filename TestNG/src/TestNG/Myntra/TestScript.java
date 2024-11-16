@@ -6,6 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class TestScript extends BaseClass {
+	// This will execute the testcase 3 times
 	@Test(invocationCount = 3)
 	public void hoverOnKids() {
 		WebElement kids = driver.findElement(By.partialLinkText("KIDS"));
